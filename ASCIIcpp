@@ -1,0 +1,13 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+char ch;
+int a;
+clrscr();
+cout<<"enter a character : ";
+ch=getch();
+a=ch;
+cout<<"\n"<<ch<<"ASCII value is "<<a;
+getch();
+}
